@@ -12,15 +12,20 @@
 
         >
             <el-menu-item index="/">主页</el-menu-item>
-            <el-submenu index="2">
+            <el-submenu index="1">
                 <template slot="title">百度AI开放平台</template>
                 <el-menu-item index="face">识别单个人脸</el-menu-item>
                 <el-menu-item index="2-2">其他</el-menu-item>
             </el-submenu>
-            <el-submenu index="3">
+            <el-submenu index="2">
                 <template slot="title">Face++旷视</template>
-                <el-menu-item index="example">代码示例</el-menu-item>
-                <el-menu-item index="2-2">其他</el-menu-item>
+                <el-menu-item index="example">人脸检测</el-menu-item>
+                <el-menu-item index="compare">人脸比对</el-menu-item>
+            </el-submenu>
+            <el-submenu index="3">
+                <template slot="title">人脸库</template>
+                <el-menu-item index="detail">人脸信息列表</el-menu-item>
+                <el-menu-item index="">人脸比对</el-menu-item>
             </el-submenu>
         </el-menu>
 
